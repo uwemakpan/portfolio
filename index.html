@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome CDN js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <!-- Handjet` -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Portfolio logo" src="img/portfolio-logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#"
+              ><img src="img/nav-icons/home.png" alt="Home" /> Home</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#"
+              ><img src="img/nav-icons/about.png" alt="Home" /> About</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#works"
+              ><img src="img/nav-icons/work.png" alt="Home" /> Work</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#resume"
+              ><img src="img/nav-icons/resume.png" alt="Home" /> Resume</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#contactme"
+              ><i class="fa-solid fa-plug"></i> Contact Me</a
+            >
+          </li>
+        </ul>
+        <div>
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Meet the web dev
+              <span class="handjet-dev-name">Uwem Akpan</span> , for state of
+              the art web apps
+            </h1>
+            <p class="hero-description">
+              I am Uwem, a professional full stack developer. I have proficiency
+              in web technologies like HTML, CSS, Javascript, ReactJS, NextJS,
+              MongoDB & software project management.
+            </p>
+            <a href="#works" class="btn btn--more margin-right-sm"
+              >View my works &darr;</a
+            >
+            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/html.png" alt="HTML" />
+                <img src="img/customers/css.png" alt="Customer photo" />
+                <img src="img/customers/javascript.png" alt="Customer photo" />
+                <img src="img/customers/react.png" alt="Customer photo" />
+                <img src="img/customers/next.png" alt="Customer photo" />
+                <img src="img/customers/css.png" alt="Customer photo" />
+              </div>
+              <p class="delivered-text">
+                <span>5+</span> web apps developed last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/dev-pix.png"
+              class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured" id="resume">
+        <div class="container">
+          <h2 class="heading-featured-in">MY RECENT CLIENTS</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="works">
+        <div class="container">
+          <span class="subheading">Some of my works</span>
+          <h2 class="heading-secondary">View some of my apps</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Weather App</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              harum culpa minima similique vitae laborum deserunt non incidunt
+              dolore. Consectetur veritatis quaerat libero a praesentium quas
+              repudiandae tempore vitae doloremque?
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-1.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-2.png"
+              class="step-img"
+              alt="iPhone app
+            meal approving plan screen"
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Traffic app</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              sapiente libero fugit quod accusamus nobis vero? Est esse unde
+              explicabo beatae amet officiis recusandae magni cum quasi
+              incidunt. Excepturi, magnam?
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Airline Booking App</h3>
+            <p class="step-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate voluptas, expedita eaque perspiciatis quod aspernatur
+              officia perferendis. Necessitatibus voluptate quaerat praesentium
+              mollitia ab eos quam explicabo commodi, beatae, architecto soluta.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img
+              src="img/app/app-screen-3.png"
+              class="step-img"
+              alt="iPhone app
+            delivery screen"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="contactme">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Get your apps developed by the web app expert
+              </h2>
+              <p class="cta-text">
+                For your software development needs, website development,
+                personal and corporate training
+              </p>
+
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="Learn-name">Full Name</label>
+                  <input
+                    id="Learn-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear of me?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook</option>
+                    <option value="ad">Twitter</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">
+                  <i class="fa-solid fa-plug"></i> Connect me
+                </button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2027 by Uwem Akpan, Inc. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
